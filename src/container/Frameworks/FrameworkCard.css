@@ -1,0 +1,41 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+
+  flex: 1;
+  max-width: fit-content;
+
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.card h3 {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+
+  color: var(--secondary-color);
+}
+
+
+
+.card-paragraph {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  /* color: #000; */
+  opacity: 0.6;
+  padding-bottom: 20px;
+}
+
+.card img {
+  width: 80px;
+}
+
+.card p {
+  padding: 0;
+  max-width: 70%;
+}

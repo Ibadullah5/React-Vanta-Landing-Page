@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Akatab:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@400;500;600;700;800&display=swap');
+
+:root {
+  --primary-font: 'Poppins', sans-serif;
+  --secondary-font: 'Shippori Mincho', serif;
+
+  --primary-color: rgb(172, 85, 255);
+  --secondary-color: rgb(36, 6, 66);
+
+  --bg-primary: rgb(248, 244, 243);
+  --bg-secondary: rgb(36, 6, 66);
+}
+
+
+/* html:not(.no-js) [data-aos=fade-down] {
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+} */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: var(--bg-primary);
+  margin: 0;
+}
+
+.section-padding {
+  padding: 100px 50px;
+}
+
+.main-heading {
+  font-family: var(--primary-font);
+  font-size: 55px;
+  font-weight: 400;
+
+  line-height: 65px;
+
+  color: var(--secondary-color);
+}
+
+.main-fancyheading {
+  font-family: var(--secondary-font);
+  font-size: 50px;
+  font-weight: 600;
+  /* line-height: 65px; */
+
+  color: var(--primary-color);
+}
+
+.main-paragraph {
+  font-family: var(--primary-font);
+  font-size: 18px;
+  font-weight: 500;
+
+  padding: 30px 0px;
+
+  color: var(--secondary-color);
+}
+
+.main-paragraph span {
+  font-weight: 700;
+}
+
+.main-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--secondary-color);
+  color: #FFF;
+
+
+  height: 78px;
+  width: 230px;
+
+  padding: 10px 10px;
+
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 500;
+
+  border: none;
+  outline: none;
+  border-radius: 5px;
+
+  transition: background-color 0.3s;
+}
+
+.main-button img {
+  height: 17px !important;
+  width: 17px !important;
+  object-fit: contain;
+}
+
+.main-button:hover {
+  background-color: var(--primary-color);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 760px) {
+  .main-heading {
+    font-size: 40px;
+  }
+
+  .main-heading span {
+    font-size: 40px;
+  }
+
+  .main-fancyheading {
+    font-size: 40px;
+  }
+
+  .section-padding {
+    padding: 50px 20px;
+  }
+}

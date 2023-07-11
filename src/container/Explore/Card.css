@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-items: flex-start;
+  padding: 10px 20px;
+
+  gap: 20px;
+  flex: 1;
+  min-width: 300px;
+}
+
+.card h3 {
+  font-family: var(--secondary-font);
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 10px;
+
+  color: var(--secondary-color);
+}
+
+
+
+.card-paragraph {
+  font-family: var(--primary-font);
+  font-size: 16px;
+  /* color: #000; */
+  opacity: 0.6;
+  padding-bottom: 20px;
+}
+
+.card img {
+  width: 80px;
+}
+
+.card p {
+  padding: 0;
+}

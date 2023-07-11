@@ -1,0 +1,26 @@
+.navbarlink {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+.navbarlink p {
+  color: var(--primary-color);
+
+  transition: all 0.3s;
+}
+
+.navbarlink p:hover {
+  text-decoration: underline;
+  margin-right: 3px;
+  cursor: pointer;
+}
+
+.navbarlink img {
+  height: 15px !important;
+  width: 15px !important;
+  margin: 0 !important;
+  object-fit: contain;
+}
