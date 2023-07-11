@@ -1,13 +1,13 @@
 import './WhyVanta.css'
 import {
-  ditch, streamline, accelarateGrowth, mitigateRisk, buildTrust, arrowRightWhite, llama2
+  ditch2, streamline, accelarateGrowth, mitigateRisk, buildTrust, arrowRightWhite, llama2
 } from '../../assets'
 
 const WhyVanta = () => {
   return (
     <div className='whyvanta'>
 
-      <img className='whyvanta__ditchimg' src={ditch} alt='ditch' />
+      <img className='whyvanta__ditchimg' src={ditch2} alt='ditch' />
       <div className='whyvanta__title'>
         <p>How does Vanta work?</p>
         <h1 className='main-heading' style={{ color: '#fff' }}>Build Trust, <br />

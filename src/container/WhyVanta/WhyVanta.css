@@ -15,9 +15,9 @@
 .whyvanta__ditchimg {
   position: absolute;
   top: 0;
-  left: -5%;
+  left: 0%;
 
-  width: 350px;
+  width: 250px;
 }
 
 .whyvanta__twoparts {
@@ -154,7 +154,7 @@
 
 @media screen and (max-width: 760px) {
   .whyvanta {
-    padding: 50px 20px;
+    padding: 80px 20px;
   }
 
   .whyvanta__twoparts-largepart {

@@ -41,7 +41,7 @@ const Solutions = () => {
 }
 
 const Card = ({ heading, text, number }) => (
-  <div className='card'>
+  <div className='solutions__card'>
     {
       number === 1 && <img src={arrowLeft} className='card__arrowleft' />
     }

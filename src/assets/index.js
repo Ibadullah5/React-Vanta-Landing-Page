@@ -48,6 +48,7 @@ import newsletterCurve from './newsletter-curve.svg'
 import scootie from './scootie.svg'
 import windmill from './windmill.png'
 import roundArrow from './round-arrow.svg'
+import ditch2 from './ditch2.svg'
 
 export {
   vantaLogo,
@@ -99,5 +100,6 @@ export {
   newsletterCurve,
   scootie,
   windmill,
-  roundArrow
+  roundArrow,
+  ditch2
 }
